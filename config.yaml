@@ -11,15 +11,15 @@ app:
   address: ''
   android_package: com.poopdodge.game
   urls:
-    license_url: https://opensource.org/licenses/MIT
-    privacy_policy_url: https://github.com/bkbkbk1/poop-dodge-game
-    copyright_url: https://github.com/bkbkbk1/poop-dodge-game
-    website: https://github.com/bkbkbk1/poop-dodge-game
+    license_url: https://bkbkbk1.github.io/poop-dodge-game/terms.html
+    privacy_policy_url: https://bkbkbk1.github.io/poop-dodge-game/privacy.html
+    copyright_url: https://bkbkbk1.github.io/poop-dodge-game/terms.html
+    website: https://bkbkbk1.github.io/poop-dodge-game/
   media:
     - purpose: icon
       uri: media/app-icon.png
 release:
-  address: 8xtJ4JU9dB9Y4qtYZZgcFLXmUnDat37NArnFSMvL4Jnm
+  address: ''
   media:
     - purpose: icon
       uri: media/app-icon.png
@@ -71,9 +71,3 @@ release:
 solana_mobile_dapp_publisher_portal:
   google_store_package: com.poopdodge.game
   testing_instructions: Install the APK, connect Phantom wallet, play the game and collect coins. After game over, click Claim Rewards to receive $POOP tokens.
-lastSubmittedVersionOnChain:
-  address: 8xtJ4JU9dB9Y4qtYZZgcFLXmUnDat37NArnFSMvL4Jnm
-  version_code: 1
-  apk_hash: HpN2fo4J2t0HxKKHy9gBUe3E0WJ2a0Qh1un0xlGwkiQ=
-lastUpdatedVersionOnStore:
-  address: 8xtJ4JU9dB9Y4qtYZZgcFLXmUnDat37NArnFSMvL4Jnm
