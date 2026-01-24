@@ -1,0 +1,79 @@
+publisher:
+  name: Poop Dodge Games
+  address: ''
+  website: https://github.com/bkbkbk1/poop-dodge-game
+  email: winmbk99@gmail.com
+  media:
+    - purpose: icon
+      uri: media/publisher-icon.png
+app:
+  name: Poop Dodge
+  address: ''
+  android_package: com.poopdodge.game
+  urls:
+    license_url: https://opensource.org/licenses/MIT
+    privacy_policy_url: https://github.com/bkbkbk1/poop-dodge-game
+    copyright_url: https://github.com/bkbkbk1/poop-dodge-game
+    website: https://github.com/bkbkbk1/poop-dodge-game
+  media:
+    - purpose: icon
+      uri: media/app-icon.png
+release:
+  address: 8xtJ4JU9dB9Y4qtYZZgcFLXmUnDat37NArnFSMvL4Jnm
+  media:
+    - purpose: icon
+      uri: media/app-icon.png
+    - purpose: banner
+      uri: media/banner.png
+    - purpose: screenshot
+      uri: media/screenshot1.png
+    - purpose: screenshot
+      uri: media/screenshot2.png
+    - purpose: screenshot
+      uri: media/screenshot3.png
+    - purpose: screenshot
+      uri: media/screenshot4.png
+  files:
+    - purpose: install
+      uri: media/poop-dodge.apk
+  catalog:
+    en-US:
+      name: Poop Dodge
+      short_description: Dodge poop, earn $POOP!
+      long_description: |
+        Poop Dodge is a fun and addictive arcade game built on Solana!
+
+        GAMEPLAY:
+        - Swipe to move your character left and right
+        - Dodge the falling poop
+        - Collect coins to earn points
+        - Survive as long as you can!
+
+        EARN REWARDS:
+        - Connect your Solana wallet (Phantom)
+        - Collect 10 coins = 1 $POOP token
+        - Claim real tokens on Solana blockchain!
+
+        FEATURES:
+        - Simple touch controls
+        - Increasing difficulty
+        - High score tracking
+        - Real crypto rewards
+        - Solana wallet integration
+      new_in_version: Initial release with core gameplay and Solana wallet integration
+  android_details:
+    cert_fingerprint: 0da0a550de456e293dcf9480d8d83ba9159a11b5263956428d6fc575ced06f50
+    min_sdk: 24
+    version: 1.0.0
+    version_code: 1
+    locales:
+      - en-US
+solana_mobile_dapp_publisher_portal:
+  google_store_package: com.poopdodge.game
+  testing_instructions: Install the APK, connect Phantom wallet, play the game and collect coins. After game over, click Claim Rewards to receive $POOP tokens.
+lastSubmittedVersionOnChain:
+  address: 8xtJ4JU9dB9Y4qtYZZgcFLXmUnDat37NArnFSMvL4Jnm
+  version_code: 1
+  apk_hash: HpN2fo4J2t0HxKKHy9gBUe3E0WJ2a0Qh1un0xlGwkiQ=
+lastUpdatedVersionOnStore:
+  address: 8xtJ4JU9dB9Y4qtYZZgcFLXmUnDat37NArnFSMvL4Jnm

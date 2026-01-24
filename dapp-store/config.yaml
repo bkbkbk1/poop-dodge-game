@@ -1,0 +1,69 @@
+# Solana dApp Store Configuration
+# Documentation: https://github.com/solana-mobile/dapp-publishing
+
+publisher:
+  name: "Poop Dodge Games"
+  website: "https://poopdodge.game"  # Update with your website
+  contact: "contact@poopdodge.game"   # Update with your email
+
+app:
+  name: "Poop Dodge"
+  short_description: "Dodge the poop, collect coins, earn $POOP tokens!"
+
+  long_description: |
+    Poop Dodge is a fun and addictive arcade game built on Solana!
+
+    🎮 GAMEPLAY
+    - Swipe to move your character left and right
+    - Dodge the falling poop 💩
+    - Collect coins to earn points 🪙
+    - Survive as long as you can!
+
+    💰 EARN REWARDS
+    - Connect your Solana wallet (Phantom)
+    - Collect 10 coins = 1 $POOP token
+    - Claim real tokens on Solana blockchain!
+
+    🏆 FEATURES
+    - Simple touch controls
+    - Increasing difficulty
+    - High score tracking
+    - Real crypto rewards
+    - Solana wallet integration
+
+  category: "games"
+
+  # Solana integration details
+  solana_mobile_dapp_publisher_portal: true
+
+  urls:
+    license_url: "https://opensource.org/licenses/MIT"
+    privacy_policy_url: "https://poopdodge.game/privacy"  # Update this
+
+  # Localization
+  locales:
+    - "en"
+
+  # Content rating
+  content_rating: "everyone"
+
+release:
+  version: "1.0.0"
+  version_code: 1
+
+  # Release notes
+  release_notes: |
+    Initial release of Poop Dodge!
+    - Classic dodge game mechanics
+    - Solana wallet integration
+    - $POOP token rewards
+    - High score tracking
+
+# Media assets (place these in dapp-store/assets/)
+media:
+  icon: "assets/icon.png"           # 512x512 PNG
+  feature_graphic: "assets/feature.png"  # 1024x500 PNG
+  screenshots:
+    - "assets/screenshot1.png"      # Phone screenshots
+    - "assets/screenshot2.png"
+    - "assets/screenshot3.png"

@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "poop-dodge-game",
+    "name": "Poop Dodge",
     "slug": "poop-dodge-game",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -10,21 +10,28 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#87CEEB"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.poopdodge.game"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#87CEEB"
       },
-      "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "package": "com.poopdodge.game",
+      "versionCode": 1
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "84cdf760-827f-4e2f-b037-ef45f74cf8a2"
+      }
     }
   }
 }
