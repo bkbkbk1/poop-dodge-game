@@ -1,0 +1,17 @@
+{
+  "name": "Poop Token",
+  "symbol": "POOP",
+  "description": "The official token of Poop Dodge game. Earn $POOP by playing and dodging poop!",
+  "image": "https://bkbkbk1.github.io/poop-dodge-game/poop-token.png",
+  "external_url": "https://bkbkbk1.github.io/poop-dodge-game/",
+  "attributes": [
+    {
+      "trait_type": "Game",
+      "value": "Poop Dodge"
+    },
+    {
+      "trait_type": "Network",
+      "value": "Solana"
+    }
+  ]
+}
